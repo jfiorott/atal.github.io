@@ -3,7 +3,7 @@
 .hero-section{
     width: 100%;
     height: calc(100vh - 120px);
-    background-image: url('jfiorott.github.io/imagens/header.png');
+    background-image: url('https://jfiorott.github.io/imagens/header.png');
     background-size: cover;
     display: flex;
     justify-content: center;
