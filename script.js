@@ -4,10 +4,10 @@ const nomeJog2 = prompt('Digite o nome do Jogador 2');
 
 if (nomeJog1 === "") {
     nomeJog1 = "Jogador 1";
-};
+}
 if (nomeJog2 === "") {
     nomeJog2 = "Jogador 2";
-};
+}
 
 const categ_HTML = document.getElementById('categoria');
 const nomeA_HTML = document.getElementById('jog1');
