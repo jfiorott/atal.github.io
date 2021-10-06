@@ -1,6 +1,6 @@
 .cabec{
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
     text-align: center;
     font-size: 30px;
     background-color: aquamarine;
@@ -8,8 +8,8 @@
 }
 
 .quadro{
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
     height: 120px;
     border-radius: 3px;
     font-size: 30px;
@@ -18,9 +18,9 @@
 
 .titulos{
     font-size: 30px;
-    width: 80%;
+    width: 70%;
     height: 50px;
-    margin-left: 10%;
+    margin-left: 15%;
     background-color: cadetblue;
     border-radius: 3px;
 }
@@ -30,6 +30,8 @@
     width: 40%; height: 40px;
     margin: 10px 10px;
     text-align: left;
+    margin-right: -20px;
+    margin-bottom: -30px;
 }
 
 .saque{
@@ -37,6 +39,8 @@
     width: 10%; height: 40px;
     margin: 10px 10px;
     text-align: center;
+    margin-right: -20px;
+    margin-bottom: -30px;
 }
 
 .sets{
@@ -44,6 +48,8 @@
     width: 10%; height: 40px;
     margin: 10px 10px;
     text-align: center;
+    margin-right: -20px;
+    margin-bottom: -30px;
 }
 
 .games{
@@ -51,6 +57,8 @@
     width: 10%; height: 40px;
     margin: 10px 10px;
     text-align: center;
+    margin-right: -20px;
+    margin-bottom: -30px;
 }
 
 .pontos{
@@ -58,4 +66,6 @@
     width: 10%; height: 40px;
     margin: 10px 10px;
     text-align: center;
+    margin-right: -20px;
+    margin-bottom: -30px;
 }
