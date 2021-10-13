@@ -10,7 +10,7 @@ if (nomeJog2 === "") {
     nomeJog2 = "Jogador 2";
 }
 
-sessionStorage.setItem('categ', categoria);
+localStorage.setItem('categ', categoria);
 localStorage.setItem('jogad1', nomeJog1);
 localStorage.setItem('jogad2', nomeJog2);
 
