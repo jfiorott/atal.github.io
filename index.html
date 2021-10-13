@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="jihf.css" media="screen" />
+    <title>Jogo em Andamento</title>
+    <style>
+        .bordas {
+            border-style: solid;
+            border-width: thin;
+            border-color: black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <meta http-equiv="refresh" content="10" />
+    </header>
+    <div class="cabec">
+        <div class="linha">
+            <div id="categoria">Cabeçalho</div>
+        </div>
+    </div>
+
+    <div class="titulos">
+        <div class="jog">Jogador</div>
+        <div class="saque">Saque</div>
+        <div class="sets">1° Set</div>
+        <div class="sets">2° Set</div>
+        <div class="pontos">Pontos</div>
+    </div>
+
+    <div class="quadro">   
+        <div class="linha">
+            <div class="jog bordas" id="nomeJog1">Jogador 1</div>
+            <div class="saque bordas" id="saque1"><img src="bola de tenis.jpg" alt"X" width="50px" height="25px"></div>
+            <div class="sets bordas" id="games11">0</div>
+            <div class="sets bordas" id="games12">0</div>
+            <div class="pontos bordas" id="ptoJog1">0</div>
+        </div>
+        <div class="linha">
+            <div class="jog bordas" id="nomeJog2">Jogador 2</div>
+            <div class="saque bordas" id="saque2"></div>
+            <div class="sets bordas" id="games21">0</div>
+            <div class="sets bordas" id="games22">0</div>
+            <div class="pontos bordas" id="ptoJog2">0</div>
+        </div>
+    </div>
+    <script src="consulta.js">
+
+    </script>
+</body>
