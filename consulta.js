@@ -2,10 +2,10 @@
 function atualizarPlacar() {
     var escore1 = localStorage.getItem('placar1');
     var escore2 = localStorage.getItem('placar2');
-    var v_games11 = localStorage.getItem('games11');
-    var v_games21 = localStorage.getItem('games21');
-    var v_games12 = localStorage.getItem('games12');
-    var v_games22 = localStorage.getItem('games22');
+    var v_games11 = localStorage.getItem('gamesA1');
+    var v_games21 = localStorage.getItem('gamesB1');
+    var v_games12 = localStorage.getItem('gamesA2');
+    var v_games22 = localStorage.getItem('gamesB2');
     
     var plc1 = document.getElementById('ptoJog1');
     var plc2 = document.getElementById('ptoJog2');
