@@ -10,9 +10,9 @@ if (nomeJog2 === "") {
     nomeJog2 = "Jogador 2";
 }
 
-localStorage.setItem('categ', categoria);
-localStorage.setItem('jogad1', nomeJog1);
-localStorage.setItem('jogad2', nomeJog2);
+sessionStorage.setItem('categ', categoria);
+sessionStorage.setItem('jogad1', nomeJog1);
+sessionStorage.setItem('jogad2', nomeJog2);
 
 const categ_HTML = document.getElementById('categoria');
 const nomeA_HTML = document.getElementById('jog1');
@@ -50,7 +50,7 @@ ponto1_HTML.addEventListener('click', function() {
         sValor = "40";
     }
     ponto1_HTML.innerText = sValor;
-    localStorage.setItem('placar1', sValor);
+    sessionStorage.setItem('placar1', sValor);
     verificarFimDoGame();
 });
 
@@ -64,7 +64,7 @@ ponto2_HTML.addEventListener('click', function() {
         sValor = "40";
     }
     ponto2_HTML.innerText = sValor;
-    localStorage.setItem('placar2', sValor);
+    sessionStorage.setItem('placar2', sValor);
     verificarFimDoGame();
 });
 
@@ -82,8 +82,8 @@ function verificarFimDoGame (){
         ponto2 = 0
         ponto1_HTML.innerText = 0;
         ponto2_HTML.innerText = 0;
-        localStorage.setItem('placar1', 0);
-        localStorage.setItem('placar2', 0);
+        sessionStorage.setItem('placar1', 0);
+        sessionStorage.setItem('placar2', 0);
 
         verificarFimDoSet();
     } 
@@ -91,15 +91,15 @@ function verificarFimDoGame (){
     if (ponto1 >= 4 && ponto1 - ponto2 === 1){
         sValor="Ad";
         ponto1_HTML.innerText = sValor;
-        localStorage.setItem('placar1', sValor);
+        sessionStorage.setItem('placar1', sValor);
     }
 
     if (ponto1 >=4 && ponto1 - ponto2 === 0) {
         sValor = "40";
         ponto1_HTML.innerText = sValor;
         ponto2_HTML.innerText = sValor;
-        localStorage.setItem('placar1', sValor);
-        localStorage.setItem('placar2', sValor);
+        sessionStorage.setItem('placar1', sValor);
+        sessionStorage.setItem('placar2', sValor);
     }
 
     if (ponto2 >= 4 && ponto2-ponto1 >=2) {
@@ -115,8 +115,8 @@ function verificarFimDoGame (){
         ponto2 = 0
         ponto1_HTML.innerText = 0;
         ponto2_HTML.innerText = 0;
-        localStorage.setItem('placar1', 0);
-        localStorage.setItem('placar2', 0);
+        sessionStorage.setItem('placar1', 0);
+        localsessionStorage.setItem('placar2', 0);
 
         verificarFimDoSet();
     }
@@ -124,15 +124,15 @@ function verificarFimDoGame (){
     if (ponto2 >= 4 && ponto2 - ponto1 === 1){
         sValor="Ad";
         ponto2_HTML.innerText = sValor;
-        localStorage.setItem('placar2', sValor);
+        sessionStorage.setItem('placar2', sValor);
     }
     
     if (ponto2 >= 4 && ponto2 - ponto1 === 0) {
         sValor = "40";
         ponto1_HTML.innerText = sValor;
         ponto2_HTML.innerText = sValor;
-        localStorage.setItem('placar1', sValor);
-        localStorage.setItem('placar2', sValor);
+        sessionStorage.setItem('placar1', sValor);
+        sessionStorage.setItem('placar2', sValor);
     }
 };
 
