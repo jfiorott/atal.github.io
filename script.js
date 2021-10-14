@@ -4,6 +4,10 @@ const nomeJog2 = prompt('Digite o nome do Jogador 2');
 var numSet = 1;
 localStorage.setItem('placar1', '0');
 localStorage.setItem('placar2', '0');
+localStorage.setItem('gamesA1', '0');
+localStorage.setItem('gamesA2', '0');
+localStorage.setItem('gamesB1', '0');
+localStorage.setItem('gamesB2', '0');
 
 if (nomeJog1 === "") {
     nomeJog1 = "Jogador 1";
