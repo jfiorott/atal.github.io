@@ -1,7 +1,7 @@
 
 function atualizarPlacar() {
-    var escore1 = localStorage.getItem('placar1');
-    var escore2 = localStorage.getItem('placar2');
+    var escore1 = sessionStorage.getItem('placar1');
+    var escore2 = sessionStorage.getItem('placar2');
 
     var plc1 = document.getElementById('ptoJog1');
     var plc2 = document.getElementById('ptoJog2');
@@ -14,9 +14,9 @@ function atualizarPlacar() {
 }
 
 function iniciarJogo() {
-    var categ1 = localStorage.getItem('categ');
-    var jog1 = localStorage.getItem('jogad1');
-    var jog2 = localStorage.getItem('jogad2');
+    var categ1 = sessionStorage.getItem('categ');
+    var jog1 = sessionStorage.getItem('jogad1');
+    var jog2 = sessionStorage.getItem('jogad2');
 
     var categ2 = document.getElementById('categoria');
     var jogad1 = document.getElementById('nomeJog1');
