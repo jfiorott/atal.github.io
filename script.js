@@ -76,11 +76,11 @@ function verificarFimDoGame (){
         if (numSet === 1) {
             games11 = games11 + 1; // soma 1 no game
             games11_HTML.innerText = games11; //exibe na tela
-            localStorage.setItem('games11', games11);
+            localStorage.setItem('gamesA1', games11);
         } else if (numSet === 2) {
             games12 = games12 + 1; // soma 1 no game
             games12_HTML.innerText = games12; //exibe na tela
-            localStorage.setItem('games12', games12);
+            localStorage.setItem('gamesA2', games12);
         }
         ponto1 = 0;
         ponto2 = 0
@@ -111,11 +111,11 @@ function verificarFimDoGame (){
         if (numSet === 1) {
             games21 = games21 + 1;
             games21_HTML.innerText = games21;
-            localStorage.setItem('games21', games21);
+            localStorage.setItem('gamesB1', games21);
         } else if (numSet === 2) {
             games22 = games22 + 1; // soma 1 no game
             games22_HTML.innerText = games22; //exibe na tela
-            localStorage.setItem('games22', games22);
+            localStorage.setItem('gamesB2', games22);
         }
         ponto1 = 0;
         ponto2 = 0
