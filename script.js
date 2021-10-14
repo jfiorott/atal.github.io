@@ -2,8 +2,8 @@ const categoria = prompt('Categoria do Jogo');
 const nomeJog1 = prompt('Digite o nome do Jogador 1');
 const nomeJog2 = prompt('Digite o nome do Jogador 2');
 var numSet = 1;
-localStorage.setItem('placar1', 0);
-localStorage.setItem('placar2', 0);
+localStorage.setItem('placar1', '0');
+localStorage.setItem('placar2', '0');
 
 if (nomeJog1 === "") {
     nomeJog1 = "Jogador 1";
@@ -84,8 +84,8 @@ function verificarFimDoGame (){
         ponto2 = 0
         ponto1_HTML.innerText = 0;
         ponto2_HTML.innerText = 0;
-        localStorage.setItem('placar1', 0);
-        localStorage.setItem('placar2', 0);
+        localStorage.setItem('placar1', '0');
+        localStorage.setItem('placar2', '0');
 
         verificarFimDoSet();
     } 
