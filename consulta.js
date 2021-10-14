@@ -2,15 +2,24 @@
 function atualizarPlacar() {
     var escore1 = localStorage.getItem('placar1');
     var escore2 = localStorage.getItem('placar2');
-
+    var v_set11 = localStorage.getItem('set11');
+    var v_set21 = localStorage.getItem('set21');
+    var v_set12 = localStorage.getItem('set12');
+    var v_set22 = localStorage.getItem('set22');
+    
     var plc1 = document.getElementById('ptoJog1');
     var plc2 = document.getElementById('ptoJog2');
-
+    var t_set11 = document.getElementById('set11');
+    var t_set21 = document.getElementById('set21');
+    var t_set12 = document.getElementById('set12');
+    var t_set22 = document.getElementById('set22');
+    
     plc1.innerHTML = escore1;
     plc2.innerHTML = escore2;
-
-//    document.body.innerHTML = 'Placar1 : ' + escore1;
-//    document.body.innerHTML = 'Placar2 : ' + escore2;
+    t_set11.innerHTML = v_set11;
+    t_set21.innerHTML = v_set21;
+    t_set12.innerHTML = v_set12;
+    t_set22.innerHTML = v_set22;
 }
 
 function iniciarJogo() {
@@ -27,7 +36,6 @@ function iniciarJogo() {
     categ2.innerHTML = categ + categ1;
     jogad1.innerHTML = jog1;
     jogad2.innerHTML = jog2;
-
 }
 
 iniciarJogo();
